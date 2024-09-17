@@ -13,21 +13,31 @@ from bs4 import BeautifulSoup
 #
 # print(resp.text)
 
-headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
-}
+def get_address_from_streeteasy(link):
+    """
+    Gets address from streeteasy webpage
+    :param link: streeteasy webpage link
+    :return: address string
+    """
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+    }
 
-urls = [
-    'https://streeteasy.com/building/28_30-jackson-avenue-long_island_city/45m?featured=1',
-    'https://streeteasy.com/building/lucent33-condominium/4i?featured=1',
-    'https://streeteasy.com/building/5241-center-boulevard-long_island_city/2905?featured=1',
-    'https://streeteasy.com/building/skyline-tower/rental/4542429'
-]
-
-for url in urls:
-    response = requests.get(url, headers=headers)
+    response = requests.get(link, headers=headers)
 
     soup = BeautifulSoup(response.content, 'html.parser')
     address = soup.findAll("title")[0].text
     idx1 = address.index('|')
-    print(address[:idx1])
+    return address[:idx1]
+
+
+if __name__ == '__main__':
+    urls = [
+        'https://streeteasy.com/building/28_30-jackson-avenue-long_island_city/45m?featured=1',
+        'https://streeteasy.com/building/lucent33-condominium/4i?featured=1',
+        'https://streeteasy.com/building/5241-center-boulevard-long_island_city/2905?featured=1',
+        'https://streeteasy.com/building/skyline-tower/rental/4542429'
+    ]
+
+    for url in urls:
+        print(get_address_from_streeteasy(url))
