@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import sys
 
 # headers = {
 #     'Authorization':f"Bearer {MAPS_PLATFORM_API_KEY}",
@@ -31,12 +32,12 @@ def get_address_from_streeteasy(link):
 
 
 if __name__ == '__main__':
+    # For testing purposes
     urls = [
         'https://streeteasy.com/building/28_30-jackson-avenue-long_island_city/45m?featured=1',
         'https://streeteasy.com/building/lucent33-condominium/4i?featured=1',
         'https://streeteasy.com/building/5241-center-boulevard-long_island_city/2905?featured=1',
         'https://streeteasy.com/building/skyline-tower/rental/4542429'
     ]
-
-    for url in urls:
-        print(get_address_from_streeteasy(url))
+    url = input('Enter URL: ')
+    print(get_address_from_streeteasy(url))
