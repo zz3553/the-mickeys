@@ -1,4 +1,3 @@
-from keys import MAPS_PLATFORM_API_KEY
 import requests
 from bs4 import BeautifulSoup
 
