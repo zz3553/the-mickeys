@@ -1,0 +1,853 @@
+[
+  {
+    "legs": [
+      {
+        "steps": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {
+            "transitDetails": {
+              "stopDetails": {
+                "arrivalStop": {
+                  "name": "Sutphin Blvd-Archer Av-JFK Airport",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.7008061,
+                      "longitude": -73.80787579999999
+                    }
+                  }
+                },
+                "arrivalTime": "2024-09-18T02:55:30Z",
+                "departureStop": {
+                  "name": "Jamaica Center - Parsons/Archer",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.7026611,
+                      "longitude": -73.79976049999999
+                    }
+                  }
+                },
+                "departureTime": "2024-09-18T02:54:00Z"
+              },
+              "localizedValues": {
+                "arrivalTime": {
+                  "time": {
+                    "text": "10:55 PM"
+                  },
+                  "timeZone": "America/New_York"
+                },
+                "departureTime": {
+                  "time": {
+                    "text": "10:54 PM"
+                  },
+                  "timeZone": "America/New_York"
+                }
+              },
+              "headsign": "World Trade Center",
+              "headway": "360s",
+              "transitLine": {
+                "agencies": [
+                  {
+                    "name": "MTA New York City Transit",
+                    "phoneNumber": "+1 718-330-1234",
+                    "uri": "http://www.mta.info/"
+                  }
+                ],
+                "name": "E Train (8 Av Local)",
+                "uri": "https://new.mta.info/document/9476",
+                "color": "#0039a6",
+                "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/E.png",
+                "nameShort": "E Line",
+                "textColor": "#ffffff",
+                "vehicle": {
+                  "name": {
+                    "text": "Subway"
+                  },
+                  "type": "SUBWAY",
+                  "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png"
+                }
+              },
+              "stopCount": 2
+            }
+          },
+          {},
+          {},
+          {
+            "transitDetails": {
+              "stopDetails": {
+                "arrivalStop": {
+                  "name": "Atlantic Terminal",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.6849565,
+                      "longitude": -73.97763599999999
+                    }
+                  }
+                },
+                "arrivalTime": "2024-09-18T03:27:00Z",
+                "departureStop": {
+                  "name": "Jamaica",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.699781,
+                      "longitude": -73.8087877
+                    }
+                  }
+                },
+                "departureTime": "2024-09-18T03:07:00Z"
+              },
+              "localizedValues": {
+                "arrivalTime": {
+                  "time": {
+                    "text": "11:27 PM"
+                  },
+                  "timeZone": "America/New_York"
+                },
+                "departureTime": {
+                  "time": {
+                    "text": "11:07 PM"
+                  },
+                  "timeZone": "America/New_York"
+                }
+              },
+              "headsign": "Atlantic Terminal",
+              "transitLine": {
+                "agencies": [
+                  {
+                    "name": "Long Island Rail Road",
+                    "phoneNumber": "+1 718-217-5477",
+                    "uri": "http://www.mta.info/lirr"
+                  }
+                ],
+                "name": "City Terminal Zone",
+                "color": "#4d5357",
+                "nameShort": "LIRR",
+                "textColor": "#ffffff",
+                "vehicle": {
+                  "name": {
+                    "text": "Train"
+                  },
+                  "type": "HEAVY_RAIL",
+                  "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png"
+                }
+              },
+              "stopCount": 4
+            }
+          },
+          {},
+          {}
+        ]
+      }
+    ]
+  },
+  {
+    "legs": [
+      {
+        "steps": [
+          {},
+          {},
+          {},
+          {
+            "transitDetails": {
+              "stopDetails": {
+                "arrivalStop": {
+                  "name": "Archer Av/Sutphin Blvd",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.700396999999995,
+                      "longitude": -73.808144
+                    }
+                  }
+                },
+                "arrivalTime": "2024-09-18T03:03:00Z",
+                "departureStop": {
+                  "name": "169 St/Jamaica Av",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.707001,
+                      "longitude": -73.790894
+                    }
+                  }
+                },
+                "departureTime": "2024-09-18T02:55:58Z"
+              },
+              "localizedValues": {
+                "arrivalTime": {
+                  "time": {
+                    "text": "11:03 PM"
+                  },
+                  "timeZone": "America/New_York"
+                },
+                "departureTime": {
+                  "time": {
+                    "text": "10:55 PM"
+                  },
+                  "timeZone": "America/New_York"
+                }
+              },
+              "headsign": "Jamaica LIRR",
+              "transitLine": {
+                "agencies": [
+                  {
+                    "name": "MTA",
+                    "uri": "https://new.mta.info/"
+                  }
+                ],
+                "name": "Little Neck or Queensborough Community College - Jamaica",
+                "color": "#1d59b3",
+                "nameShort": "Q30",
+                "textColor": "#ffffff",
+                "vehicle": {
+                  "name": {
+                    "text": "Bus"
+                  },
+                  "type": "BUS",
+                  "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png"
+                }
+              },
+              "stopCount": 7
+            }
+          },
+          {},
+          {
+            "transitDetails": {
+              "stopDetails": {
+                "arrivalStop": {
+                  "name": "Atlantic Terminal",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.6849565,
+                      "longitude": -73.97763599999999
+                    }
+                  }
+                },
+                "arrivalTime": "2024-09-18T03:27:00Z",
+                "departureStop": {
+                  "name": "Jamaica",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.699781,
+                      "longitude": -73.8087877
+                    }
+                  }
+                },
+                "departureTime": "2024-09-18T03:07:00Z"
+              },
+              "localizedValues": {
+                "arrivalTime": {
+                  "time": {
+                    "text": "11:27 PM"
+                  },
+                  "timeZone": "America/New_York"
+                },
+                "departureTime": {
+                  "time": {
+                    "text": "11:07 PM"
+                  },
+                  "timeZone": "America/New_York"
+                }
+              },
+              "headsign": "Atlantic Terminal",
+              "transitLine": {
+                "agencies": [
+                  {
+                    "name": "Long Island Rail Road",
+                    "phoneNumber": "+1 718-217-5477",
+                    "uri": "http://www.mta.info/lirr"
+                  }
+                ],
+                "name": "City Terminal Zone",
+                "color": "#4d5357",
+                "nameShort": "LIRR",
+                "textColor": "#ffffff",
+                "vehicle": {
+                  "name": {
+                    "text": "Train"
+                  },
+                  "type": "HEAVY_RAIL",
+                  "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png"
+                }
+              },
+              "stopCount": 4
+            }
+          },
+          {},
+          {}
+        ]
+      }
+    ]
+  },
+  {
+    "legs": [
+      {
+        "steps": [
+          {},
+          {},
+          {
+            "transitDetails": {
+              "stopDetails": {
+                "arrivalStop": {
+                  "name": "Jamaica Av/146 St",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.701836,
+                      "longitude": -73.80871599999999
+                    }
+                  }
+                },
+                "arrivalTime": "2024-09-18T02:43:00Z",
+                "departureStop": {
+                  "name": "Jamaica Av/170 St",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.707287,
+                      "longitude": -73.789581
+                    }
+                  }
+                },
+                "departureTime": "2024-09-18T02:35:00Z"
+              },
+              "localizedValues": {
+                "arrivalTime": {
+                  "time": {
+                    "text": "10:43 PM"
+                  },
+                  "timeZone": "America/New_York"
+                },
+                "departureTime": {
+                  "time": {
+                    "text": "10:35 PM"
+                  },
+                  "timeZone": "America/New_York"
+                }
+              },
+              "headsign": "Broadway Junction Van Sinderen Ave Via Jamaica",
+              "transitLine": {
+                "agencies": [
+                  {
+                    "name": "MTA",
+                    "uri": "https://new.mta.info/"
+                  }
+                ],
+                "name": "Broadway Junction - Jamaica",
+                "color": "#1d59b3",
+                "nameShort": "Q56",
+                "textColor": "#ffffff",
+                "vehicle": {
+                  "name": {
+                    "text": "Bus"
+                  },
+                  "type": "BUS",
+                  "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png"
+                }
+              },
+              "stopCount": 7
+            }
+          },
+          {},
+          {},
+          {},
+          {
+            "transitDetails": {
+              "stopDetails": {
+                "arrivalStop": {
+                  "name": "Atlantic Terminal",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.6849565,
+                      "longitude": -73.97763599999999
+                    }
+                  }
+                },
+                "arrivalTime": "2024-09-18T03:27:00Z",
+                "departureStop": {
+                  "name": "Jamaica",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.699781,
+                      "longitude": -73.8087877
+                    }
+                  }
+                },
+                "departureTime": "2024-09-18T03:07:00Z"
+              },
+              "localizedValues": {
+                "arrivalTime": {
+                  "time": {
+                    "text": "11:27 PM"
+                  },
+                  "timeZone": "America/New_York"
+                },
+                "departureTime": {
+                  "time": {
+                    "text": "11:07 PM"
+                  },
+                  "timeZone": "America/New_York"
+                }
+              },
+              "headsign": "Atlantic Terminal",
+              "transitLine": {
+                "agencies": [
+                  {
+                    "name": "Long Island Rail Road",
+                    "phoneNumber": "+1 718-217-5477",
+                    "uri": "http://www.mta.info/lirr"
+                  }
+                ],
+                "name": "City Terminal Zone",
+                "color": "#4d5357",
+                "nameShort": "LIRR",
+                "textColor": "#ffffff",
+                "vehicle": {
+                  "name": {
+                    "text": "Train"
+                  },
+                  "type": "HEAVY_RAIL",
+                  "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png"
+                }
+              },
+              "stopCount": 4
+            }
+          },
+          {},
+          {}
+        ]
+      }
+    ]
+  },
+  {
+    "legs": [
+      {
+        "steps": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {
+            "transitDetails": {
+              "stopDetails": {
+                "arrivalStop": {
+                  "name": "Sutphin Blvd-Archer Av-JFK Airport",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.7008061,
+                      "longitude": -73.80787579999999
+                    }
+                  }
+                },
+                "arrivalTime": "2024-09-18T03:30:00Z",
+                "departureStop": {
+                  "name": "Jamaica Center - Parsons/Archer",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.7026611,
+                      "longitude": -73.79976049999999
+                    }
+                  }
+                },
+                "departureTime": "2024-09-18T03:28:30Z"
+              },
+              "localizedValues": {
+                "arrivalTime": {
+                  "time": {
+                    "text": "11:30 PM"
+                  },
+                  "timeZone": "America/New_York"
+                },
+                "departureTime": {
+                  "time": {
+                    "text": "11:28 PM"
+                  },
+                  "timeZone": "America/New_York"
+                }
+              },
+              "headsign": "World Trade Center",
+              "headway": "480s",
+              "transitLine": {
+                "agencies": [
+                  {
+                    "name": "MTA New York City Transit",
+                    "phoneNumber": "+1 718-330-1234",
+                    "uri": "http://www.mta.info/"
+                  }
+                ],
+                "name": "E Train (8 Av Local)",
+                "uri": "https://new.mta.info/document/9476",
+                "color": "#0039a6",
+                "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/E.png",
+                "nameShort": "E Line",
+                "textColor": "#ffffff",
+                "vehicle": {
+                  "name": {
+                    "text": "Subway"
+                  },
+                  "type": "SUBWAY",
+                  "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png"
+                }
+              },
+              "stopCount": 2
+            }
+          },
+          {},
+          {},
+          {
+            "transitDetails": {
+              "stopDetails": {
+                "arrivalStop": {
+                  "name": "Atlantic Terminal",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.6849565,
+                      "longitude": -73.97763599999999
+                    }
+                  }
+                },
+                "arrivalTime": "2024-09-18T03:57:00Z",
+                "departureStop": {
+                  "name": "Jamaica",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.699781,
+                      "longitude": -73.8087877
+                    }
+                  }
+                },
+                "departureTime": "2024-09-18T03:37:00Z"
+              },
+              "localizedValues": {
+                "arrivalTime": {
+                  "time": {
+                    "text": "11:57 PM"
+                  },
+                  "timeZone": "America/New_York"
+                },
+                "departureTime": {
+                  "time": {
+                    "text": "11:37 PM"
+                  },
+                  "timeZone": "America/New_York"
+                }
+              },
+              "headsign": "Atlantic Terminal",
+              "transitLine": {
+                "agencies": [
+                  {
+                    "name": "Long Island Rail Road",
+                    "phoneNumber": "+1 718-217-5477",
+                    "uri": "http://www.mta.info/lirr"
+                  }
+                ],
+                "name": "City Terminal Zone",
+                "color": "#4d5357",
+                "nameShort": "LIRR",
+                "textColor": "#ffffff",
+                "vehicle": {
+                  "name": {
+                    "text": "Train"
+                  },
+                  "type": "HEAVY_RAIL",
+                  "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png"
+                }
+              },
+              "stopCount": 4
+            }
+          },
+          {},
+          {}
+        ]
+      }
+    ]
+  },
+  {
+    "legs": [
+      {
+        "steps": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {
+            "transitDetails": {
+              "stopDetails": {
+                "arrivalStop": {
+                  "name": "Sutphin Blvd-Archer Av-JFK Airport",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.7008061,
+                      "longitude": -73.80787579999999
+                    }
+                  }
+                },
+                "arrivalTime": "2024-09-18T03:59:00Z",
+                "departureStop": {
+                  "name": "Jamaica Center - Parsons/Archer",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.7026611,
+                      "longitude": -73.79976049999999
+                    }
+                  }
+                },
+                "departureTime": "2024-09-18T03:57:30Z"
+              },
+              "localizedValues": {
+                "arrivalTime": {
+                  "time": {
+                    "text": "11:59 PM"
+                  },
+                  "timeZone": "America/New_York"
+                },
+                "departureTime": {
+                  "time": {
+                    "text": "11:57 PM"
+                  },
+                  "timeZone": "America/New_York"
+                }
+              },
+              "headsign": "World Trade Center",
+              "headway": "480s",
+              "transitLine": {
+                "agencies": [
+                  {
+                    "name": "MTA New York City Transit",
+                    "phoneNumber": "+1 718-330-1234",
+                    "uri": "http://www.mta.info/"
+                  }
+                ],
+                "name": "E Train (8 Av Local)",
+                "uri": "https://new.mta.info/document/9476",
+                "color": "#0039a6",
+                "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/E.png",
+                "nameShort": "E Line",
+                "textColor": "#ffffff",
+                "vehicle": {
+                  "name": {
+                    "text": "Subway"
+                  },
+                  "type": "SUBWAY",
+                  "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png"
+                }
+              },
+              "stopCount": 2
+            }
+          },
+          {},
+          {},
+          {
+            "transitDetails": {
+              "stopDetails": {
+                "arrivalStop": {
+                  "name": "Atlantic Terminal",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.6849565,
+                      "longitude": -73.97763599999999
+                    }
+                  }
+                },
+                "arrivalTime": "2024-09-18T04:27:00Z",
+                "departureStop": {
+                  "name": "Jamaica",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.699781,
+                      "longitude": -73.8087877
+                    }
+                  }
+                },
+                "departureTime": "2024-09-18T04:07:00Z"
+              },
+              "localizedValues": {
+                "arrivalTime": {
+                  "time": {
+                    "text": "12:27 AM"
+                  },
+                  "timeZone": "America/New_York"
+                },
+                "departureTime": {
+                  "time": {
+                    "text": "12:07 AM"
+                  },
+                  "timeZone": "America/New_York"
+                }
+              },
+              "headsign": "Atlantic Terminal",
+              "transitLine": {
+                "agencies": [
+                  {
+                    "name": "Long Island Rail Road",
+                    "phoneNumber": "+1 718-217-5477",
+                    "uri": "http://www.mta.info/lirr"
+                  }
+                ],
+                "name": "City Terminal Zone",
+                "color": "#4d5357",
+                "nameShort": "LIRR",
+                "textColor": "#ffffff",
+                "vehicle": {
+                  "name": {
+                    "text": "Train"
+                  },
+                  "type": "HEAVY_RAIL",
+                  "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png"
+                }
+              },
+              "stopCount": 4
+            }
+          },
+          {},
+          {}
+        ]
+      }
+    ]
+  },
+  {
+    "legs": [
+      {
+        "steps": [
+          {},
+          {},
+          {},
+          {},
+          {},
+          {
+            "transitDetails": {
+              "stopDetails": {
+                "arrivalStop": {
+                  "name": "Sutphin Blvd-Archer Av-JFK Airport",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.700806199999995,
+                      "longitude": -73.8078704
+                    }
+                  }
+                },
+                "arrivalTime": "2024-09-18T04:29:30Z",
+                "departureStop": {
+                  "name": "Jamaica Center - Parsons/Archer",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.7026611,
+                      "longitude": -73.79976049999999
+                    }
+                  }
+                },
+                "departureTime": "2024-09-18T04:28:30Z"
+              },
+              "localizedValues": {
+                "arrivalTime": {
+                  "time": {
+                    "text": "12:29 AM"
+                  },
+                  "timeZone": "America/New_York"
+                },
+                "departureTime": {
+                  "time": {
+                    "text": "12:28 AM"
+                  },
+                  "timeZone": "America/New_York"
+                }
+              },
+              "headsign": "Broad St",
+              "headway": "600s",
+              "transitLine": {
+                "agencies": [
+                  {
+                    "name": "MTA New York City Transit",
+                    "phoneNumber": "+1 718-330-1234",
+                    "uri": "http://www.mta.info/"
+                  }
+                ],
+                "name": "J Train (Nassau St Local)",
+                "uri": "https://new.mta.info/document/9506",
+                "color": "#996633",
+                "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/us-ny-mta/J.png",
+                "nameShort": "J Train",
+                "textColor": "#ffffff",
+                "vehicle": {
+                  "name": {
+                    "text": "Subway"
+                  },
+                  "type": "SUBWAY",
+                  "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png"
+                }
+              },
+              "stopCount": 2
+            }
+          },
+          {},
+          {},
+          {
+            "transitDetails": {
+              "stopDetails": {
+                "arrivalStop": {
+                  "name": "Atlantic Terminal",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.6849565,
+                      "longitude": -73.97763599999999
+                    }
+                  }
+                },
+                "arrivalTime": "2024-09-18T04:57:00Z",
+                "departureStop": {
+                  "name": "Jamaica",
+                  "location": {
+                    "latLng": {
+                      "latitude": 40.699781,
+                      "longitude": -73.8087877
+                    }
+                  }
+                },
+                "departureTime": "2024-09-18T04:37:00Z"
+              },
+              "localizedValues": {
+                "arrivalTime": {
+                  "time": {
+                    "text": "12:57 AM"
+                  },
+                  "timeZone": "America/New_York"
+                },
+                "departureTime": {
+                  "time": {
+                    "text": "12:37 AM"
+                  },
+                  "timeZone": "America/New_York"
+                }
+              },
+              "headsign": "Atlantic Terminal",
+              "transitLine": {
+                "agencies": [
+                  {
+                    "name": "Long Island Rail Road",
+                    "phoneNumber": "+1 718-217-5477",
+                    "uri": "http://www.mta.info/lirr"
+                  }
+                ],
+                "name": "City Terminal Zone",
+                "color": "#4d5357",
+                "nameShort": "LIRR",
+                "textColor": "#ffffff",
+                "vehicle": {
+                  "name": {
+                    "text": "Train"
+                  },
+                  "type": "HEAVY_RAIL",
+                  "iconUri": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png"
+                }
+              },
+              "stopCount": 4
+            }
+          },
+          {},
+          {}
+        ]
+      }
+    ]
+  }
+]
