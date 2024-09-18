@@ -1,0 +1,6 @@
+TRANSIT_DETAILS = 'transitDetails'
+STOP_DETAILS = 'stopDetails'
+ARRIVAL_STOP = 'arrivalStop'
+DEPARTURE_STOP = 'departureStop'
+TRANSIT_LINE = 'transitLine'
+STOP_COUNT = 'stopCount'
