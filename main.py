@@ -2,8 +2,45 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
+from key_lookup import *
 from keys import MAPS_PLATFORM_API_KEY
+from steps_test_data import steps
 
+
+def format_leg(steps):
+    """
+    Formats single route (leg)
+    :param steps:
+    :return:
+    """
+    formatted_route = []
+    # [
+    #     {
+    #         'start_stop':'',
+    #         'end_stop':'',
+    #         'mode_of_transport':'',
+    #         'num_stops':'',
+    #     }, ...
+    # ]
+    for step in steps:
+        if step:
+            curr_transfer = step[TRANSIT_DETAILS]
+            stops = curr_transfer[STOP_DETAILS]
+            start_stop = stops[ARRIVAL_STOP]['name']
+            end_stop = stops[DEPARTURE_STOP]['name']
+            mode_of_transport = curr_transfer[TRANSIT_LINE]['name']
+            num_stops = curr_transfer[STOP_COUNT]
+            formatted_route.append(
+                {
+                    'start_stop': start_stop,
+                    'end_stop': end_stop,
+                    'mode_of_transport': mode_of_transport,
+                    'num_stops': num_stops,
+                }
+            )
+
+
+    return formatted_route
 
 def get_route_from_address(start_address, end_address):
     url = "https://routes.googleapis.com/directions/v2:computeRoutes"
@@ -11,7 +48,7 @@ def get_route_from_address(start_address, end_address):
     # Define the payload (body of the request)
     payload = {
         "origin": {
-            "address": "5510 13th Ave Brooklyn, NY"
+            "address": "9308 177th St Jamaica, NY"
         },
         "destination": {
             "address": "Barclays Center"
@@ -19,7 +56,7 @@ def get_route_from_address(start_address, end_address):
         "travelMode": "TRANSIT",
         "computeAlternativeRoutes": True,
         "transitPreferences": {
-            "routingPreference": "LESS_WALKING",
+            "routingPreference": "FEWER_TRANSFERS",
             "allowedTravelModes": ["TRAIN"]
         }
     }
@@ -33,9 +70,12 @@ def get_route_from_address(start_address, end_address):
 
     # Make the POST request
     response = requests.post(url, headers=headers, data=json.dumps(payload))
+    # leg: route
+    # step: each transfer
 
     # Print the response
     print(response.json()['routes'])
+    return response.json()['routes']
 
 def get_address_from_link(link):
     """
@@ -66,4 +106,6 @@ if __name__ == '__main__':
     # url = input('Enter URL: ')
     # print(get_address_from_link(url))
 
-    get_route_from_address('', '')
+    # get_route_from_address('', '')
+
+    print(format_leg(steps))
